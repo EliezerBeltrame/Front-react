@@ -1,0 +1,59 @@
+.app-container {
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  background-color: #E0E1DD;
+  min-height: 100vh;
+}
+
+.titulo {
+  text-align: center;
+  color: #1B263B;
+  margin-bottom: 30px;
+}
+
+.card {
+  background-color: white;
+  border: 2px solid #778DA9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  padding: 15px;
+  width: 280px;
+}
+
+.imagem-equip {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.nome-equip {
+  font-weight: bold;
+  font-size: 22px;
+  color: #1B263B;
+}
+
+.status {
+  font-weight: bold;
+}
+
+.status.funcionando {
+  color: #2EC4B6;
+}
+
+.status.alerta {
+  color: #E63946;
+}
+
+.funcao {
+  font-style: italic;
+  margin-top: 10px;
+  text-align: justify;
+}
+
+.lista-equipamentos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
