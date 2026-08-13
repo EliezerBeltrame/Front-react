@@ -1,38 +1,23 @@
-.App {
-  text-align: center;
+/* Estilo para todos os botões */
+button {
+  background-color: #007bff; /* Azul bonito */
+  color: white;             /* Texto branco */
+  border: none;              /* Sem borda preta padrão */
+  padding: 10px 18px;        /* Espaçamento interno */
+  font-size: 14px;           /* Tamanho do texto */
+  font-weight: bold;         /* Texto em negrito */
+  border-radius: 6px;        /* Bordas arredondadas */
+  cursor: pointer;           /* Mãozinha ao passar o mouse */
+  margin: 5px;               /* Espaço entre os botões */
+  transition: background 0.2s; /* Suaviza a troca de cor */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Efeito quando passa o mouse por cima (fica azul mais escuro) */
+button:hover {
+  background-color: #0056b3;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Efeito ao clicar */
+button:active {
+  background-color: #004085;
 }
